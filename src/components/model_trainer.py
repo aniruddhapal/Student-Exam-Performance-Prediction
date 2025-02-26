@@ -58,7 +58,7 @@ class ModelTrainer:
                     'n_estimators': [8, 16, 32, 64, 128, 256]
                 },
                 "Decision Tree": {
-                    'criterion': ['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
+                    'criterion': ['friedman_mse', 'poisson'],
                 },
                 "Gradient Boosting": {
                     'learning_rate': [.1, .01, .05, .001],
