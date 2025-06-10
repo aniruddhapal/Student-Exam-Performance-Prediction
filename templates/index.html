@@ -1,1 +1,26 @@
-<h1>Welcome to the home page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to the Student Performance Predictor</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 100px; background-color: #f0f2f5; }
+        h1 { color: #333; }
+        a { 
+            display: inline-block; 
+            margin-top: 20px; 
+            padding: 15px 30px; 
+            font-size: 1.2em; 
+            color: white; 
+            background-color: #007bff; 
+            text-decoration: none; 
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Student Performance Predictor</h1>
+    <p>Click the button below to proceed to the prediction tool.</p>
+    <a href="{{ url_for('predict_datapoint') }}">Go to Predictor</a>
+</body>
+</html>

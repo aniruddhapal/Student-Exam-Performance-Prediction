@@ -10,7 +10,7 @@ application=Flask(__name__)
 
 @application.route('/')
 def index():
-    return render_template('home1.html')
+    return render_template('index.html')
 
 @application.route('/predictdata',methods=['GET','POST'])
 def predict_datapoint():
